@@ -31,6 +31,8 @@ Dashboard can be found on Tableau server using this web link 🌐 - https://publ
 * Right bar graph shows the participation of room category in achiving revenue which left bar graph is presenting.
 * The dashboard have a filter which can convert revenue in overall and revenue made on week days/ weekends. 
 * Both graphs make their changes according to the filter.
+* WeekDays found more contributing to overall revenue.
+
 ##### Key Takeaway :- 
 * From here properties with less revenue can be identified and can be focussed.
 * Within properties, less performing room categories can be identified and either they shall be upgraded or run promotions.
