@@ -1,5 +1,6 @@
 # Atliq-Grand-Hotel-Chain-Business-Analysis
-![Atliq grand](https://user-images.githubusercontent.com/109259266/209396145-c546241f-cbe7-4460-b6e3-1888fe3388ce.png)
+![atliq](https://user-images.githubusercontent.com/109259266/211154774-027e19a3-6549-4b96-9ae1-4a7007a9b2cc.png)
+
 
 ## This read me file contains detailed analysis along with dashbaord -
 
@@ -17,11 +18,10 @@ Dashboard can be found on Tableau server using this web link 🌐 - https://publ
 
 * As the data is limited to 3 months, it was nearly impossible to find any trend/pattern in bookings and cancellation apart from the weekend/weekdays scenerio.
 
-* Thus it was decided to figure out performance metrics and Property ids/ Room category which are under performing and needs more focus or promotion.
+* Thus it was decided to calculate performance metrics by Property ids/ Room category which are under performing and needs more focus or promotion.
 
-* Calculations were made, & dashboard was prepared.
+* Metrics were calculated, variations in revenue highlighted & dashboard was prepared.
 
-* A storyline is prepared to highlight metrics and their effecton different properties.
 
 ### Explaining Dashboard
 #### Overall Revenue :- 
@@ -37,24 +37,33 @@ Dashboard can be found on Tableau server using this web link 🌐 - https://publ
 
 
 #### Occupancy Metrics :- 
-* Shows total capacity chain has over 3 months in terms of rooms and number of bookings made.
+* Shows total capacity Vs actual booking done.
 * Occupancy Percentage calculated as 58% which is too low for a Hotel chain.
 * Left graph shows Occupancy Ratio on weekdays and weekends. It is obvious that weekends will have higher occupancy than weekdays. 
-* Right graph shows the property ids occupancy ratio in different properties. Colour coding reresents different cities. Properties with less occupancy ratio in different cities can be identified.
+
 ##### Key Takeaways :- 
 * As occupancy ratio is less on weekdays, thus discounts/ offers can be run through weekdays to increase occupancy.
 
 
 #### Cancellation Ratio :-
-* Overall Cancelation ration calculated.
+* Overall Cancelation ration calculated to be 25% as nearly 34000 bookings were cancellled.
 * Graph represents breakup of cancellation w.r.t room category in different cities.
-##### Key Takeaways :-
-* Most cancelled room category should review customers for exact reasons and make amendments.
+
+#### Rank By Revenue Vs Week
+⁎ Rank generated for 3 months based on revenue each week and Tableau parameter used to give user an option to view Top 5 or Top 10 preperties.
+⁎ Found Top 2 properties maintained there ranks through out the 3 months period.
+
 
 
 Result :-
 * Provided details of worst effected and most highly revenued properties/room categories to stakeholder.
 * Key takeaways suggested for action plan.
+
+
+#### Learnings - 
+⁎ Python Pandas- Date Time functions
+⁎ Data Cleaning using Pandas.
+* Tableau Sets, Parameters, Calculated Fields, Quick Table Calculations, Groups, Dual Axis charts.
 
 
 
